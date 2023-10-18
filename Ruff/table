@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        td, tr, th{
+            /* border: 1px solid; */
+            padding: 8px 10px 8px 10px;
+        }
+        table{
+            width: 600px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        tbody tr:nth-child(odd){
+            background:rgb(221, 221, 221);
+        }
+        tbody tr:nth-child(even){
+            background:rgb(224, 224, 251);
+        }
+        
+       thead tr{
+        background-color: #94a7f5;
+       }
+       tfoot tr{
+        background-color: rgb(210, 207, 254);
+
+       }
+        tfoot td{
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5032</td>
+                <td>Muhammmad Saqlain</td>
+                <td>03034156046</td>
+                <td>saqlain@saqcode.com</td>
+            </tr>
+            <tr>
+                <td>5033</td>
+                <td>Muhammmad Faisal Qadir</td>
+                <td>030xxxxxxxx</td>
+                <td>faisal@saqcode.com</td>
+            </tr>
+            <tr>
+                <td>5034</td>
+                <td>Mudasir Ali</td>
+                <td>030xxxxxxxx</td>
+                <td>mudssar@saqcode.com</td>
+            </tr>
+            <tr>
+                <td>5034</td>
+                <td>Nayab </td>
+                <td>030xxxxxxxx</td>
+                <td>nayab@saqcode.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">2020&copy saqCode </td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>

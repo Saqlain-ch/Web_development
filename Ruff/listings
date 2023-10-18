@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Listings</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        * {
+            /* margin: 0;
+            padding: 0; */
+        }
+        .br1 {
+            border: 1px solid rgb(147, 94, 94);
+        }
+        .listing-card{
+            padding: 0;
+            /* background-color: red; */
+        }
+        .listing-card .card-body h2{
+            font-size: 22px;
+            font-weight: 400;
+        }
+        .listing-card .card-body .price{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containter-xl">
+        <div class="containter-xl">
+            <div class="row ">
+                <div class="col ps-sm-4 pe-sm-4  bg-primary ">
+                    <h2>
+                        Featured Listings
+                    </h2>
+                </div>
+            </div>
+            <div class="container-xl p-md-4 ">
+                <div class="row gx-4 g-3 ">
+                    <div class="card col-md-4 col-lg-3 listing-card  gx-5" >
+                        <img src="../media/property-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="price mb-1">PKR 600,000</p>
+                            <h2  class="listing-name">5 mrla house In bahra town</h2>
+                            <a href="#" class="btn btn-primary"> View More Details</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 col-lg-3 listing-card  " >
+                        <img src="../media/property-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="price mb-1">PKR 600,000</p>
+                            <h2  class="listing-name">5 mrla house In bahra town</h2>
+                            <a href="#" class="btn btn-primary"> View More Details</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 col-lg-3 listing-card  " >
+                        <img src="../media/property-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="price mb-1">PKR 600,000</p>
+                            <h2  class="listing-name">5 mrla house In bahra town</h2>
+                            <a href="#" class="btn btn-primary"> View More Details</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 col-lg-3 listing-card  " >
+                        <img src="../media/property-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="price mb-1">PKR 600,000</p>
+                            <h2  class="listing-name">5 mrla house In bahra town</h2>
+                            <a href="#" class="btn btn-primary"> View More Details</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 col-lg-3 listing-card  " >
+                        <img src="../media/property-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <p class="price mb-1">PKR 600,000</p>
+                            <h2  class="listing-name">5 mrla house In bahra town</h2>
+                            <a href="#" class="btn btn-primary"> View More Details</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>

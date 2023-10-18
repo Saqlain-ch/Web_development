@@ -1,0 +1,16 @@
+ void main() {
+  int a = 5;
+  int b = 10;
+  int c = a + b;
+  
+ // double num = 5.0;
+   
+ 
+  
+  print("Sum of two Numbers is  ");
+
+  //print('Mod of two Numbers is $mod');
+  //print('Sum of two Numbers is $dev');
+  //print('Sum of two Numbers is $multi');
+  //print('Sum of two Numbers is $sub');
+}
